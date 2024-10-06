@@ -1,0 +1,122 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #007cba;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .header nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        h3 {
+            color: #007cba;
+            margin-bottom: 15px;
+        }
+
+        .card-section, .link-card-section {
+            margin-bottom: 30px;
+        }
+
+        .card-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            background-color: #fff;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .card-name, .card-number {
+            font-size: 1.1em;
+        }
+
+        button {
+            padding: 8px 12px;
+            font-size: 1em;
+            background-color: #007cba;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005f9a;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0 5px;
+            font-size: 1.1em;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .link-btn {
+            background-color: #28a745;
+        }
+
+        .link-btn:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #007cba;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
